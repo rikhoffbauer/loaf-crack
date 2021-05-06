@@ -8,7 +8,7 @@ mkdir "$TMP_DIR"
 
 npx asar e "$LOAF_APP_ASAR_PATH" "$TMP_DIR"
 
-sed -Ei 's/checkout\.getmotion\.io\//raw\.githubusercontent\.com\/rikhoffbauer\/loaf-license-server\/master\/response\.json#/g' "$LOAF_MAIN_JS"
+sed -Ei 's/checkout\.getmotion\.io\//raw\.githubusercontent\.com\/rikhoffbauer\/loaf-crack\/master\/response\.json#/g' "$LOAF_MAIN_JS"
 
 rm -f "${LOAF_APP_ASAR_PATH}.bak"
 mv "$LOAF_APP_ASAR_PATH" "${LOAF_APP_ASAR_PATH}.bak"
